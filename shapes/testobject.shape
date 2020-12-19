@@ -4,9 +4,9 @@
        xmlns:svg="http://www.w3.org/2000/svg">
   <name>Test Object</name>
   <description>A Horizontal Jumper</description>
-  <icon>testobject.png</icon>
+  <!--<icon>testobject.png</icon>-->
   <default-width>3cm</default-width>
-  <default-height>1cm</default-height>
+  <default-height>3cm</default-height>
   <connections>
     <point x="0" y="0"/>
     <point x="6" y="0"/>

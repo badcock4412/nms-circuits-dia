@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+
+<shape xmlns="http://www.daa.com.au/~james/dia-shape-ns"
+       xmlns:svg="http://www.w3.org/2000/svg">
+  <name>Auto Switch</name>
+  <description>An auto switch</description>
+  <icon>Autoswitch.png</icon>
+  <default-width>2cm</default-width>
+  <default-height>2cm</default-height>
+  <connections>
+    <point x="0" y="6" main="yes"/>
+    <point x="3" y="3"/>
+    <point x="-3" y="3"/>
+  </connections>
+  <aspectratio type="fixed"/>
+  <svg:svg width="6.0" height="6.0">
+    <svg:rect style="fill: default; stroke-width: 0.1; stroke-width: 0.1; stroke: #000000" x="-3" y="0" width="6" height="6"/>
+    <svg:rect style="fill: #000000" x="-2" y="1" width="4" height="1"/>
+    <svg:rect style="fill: #000000" x="-0.5" y="1" width="1" height="4"/>
+  </svg:svg>
+</shape>

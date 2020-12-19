@@ -102,7 +102,10 @@
   -->
   <contents>
     <object name="Test Object">
-        <description>Test Object</description>
+      <description>Test Object</description>
+    </object>
+    <object name="Auto Switch">
+      <description>An Auto Switch</description>
     </object>
     <!--
     <object name="Circuit - Vertical Resistor">

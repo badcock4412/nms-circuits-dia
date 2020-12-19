@@ -1,7 +1,54 @@
 - [DONE] Create the first test sheet.
 - [DONE] Write a build script to deploy changes to Dia
-- Populate list of objects to generate
+- [DONE] Populate list of objects to generate
+    - Sources
+        - Biofuel Reactor
+        - Solar Panel
+        - Electromagnetic Generator
+        - Battery
+    - Sinks
+        - BUILDABLE.DRESSINGROOM.png Appearance Modifier	50
+        - BUILDABLE.CREATUREFEEDER.png Automated Feeder	20
+        - Buildable.teleporter.png Base Teleport Module	20
+        - BUILDABLE.BIODOME.png Bio-Dome	50
+        - DECORATION.CEILINGLIGHT.png Ceiling Light	1
+        - BUILDABLE.LIGHTBLUE.png Coloured Light	1
+        - Buildable.cuberoom.png Cuboid Room	5
+        - BUILDABLE.CUBECURVEWALL.png Curved Cuboid Wall	5
+        - Buildable.room small.png Cylindrical Room	10
+        - Buildable.door.png Door	1
+        - BUILDABLE.TERMINAL.png Galactic Trade Terminal	15
+        - UTILITY.GASEXTRACTOR.png Gas Extractor	50
+        - Buildable.shieldstation.png Hazard Protection Unit	10
+        - Buildable.healthstation.png Health Station	10
+        - Buildable.holodoor.png Holo-Door	1
+        - BUILDABLE.PLANTER.png Hydroponic Tray	5
+        - Buildable.plantermega.png Large Hydroponic Tray	20
+        - Buildable.light001.png Light	1
+        - BUILDABLE.LIGHTBox.png Light Box	1
+        - BUILDABLE.CREATUREFARMER.png Livestock Unit	20
+        - UTILITY.EXTRACTOR SMALL(2).png Mineral Extractor	50
+        - BUILDABLE.NOISEBOX.png Noise Box	1
+        - BUILDABLE.SPAWNER BALL.png Sphere Creator	0
+        - Buildable.maincube.png Square Room	10
+        - NmsBase Storage Container Icon.png Storage Container	5
+        - Buildable.corridor.png Straight Corridor	1
+        - BUILDABLE.VIEWSPHERE.png Viewing Sphere	1
+        - Buildable.corridor x.png X-Shaped Corridor	1
+        - Buildable.glasscorridor.png Glass Roofed Corridor	1
+    - Switches
+        - [DONE] Auto Switch
+        - Button
+        - Floor Switch
+        - Power Inverter
+        - Proximity Switch
+        - Wall Switch
+    - Wires
+        - Hump
+        - Glob
 - ... get SVG reference, maybe?
+- cache issue, hacked in script, can clear cache with flags?
+- auto PNG creation
 - Get crackin'
 - Write documentation on how to install
 - Generate some samples

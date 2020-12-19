@@ -19,6 +19,11 @@ if (-NOT ([Security.Principal.WindowsPrincipal][Security.Principal.WindowsIdenti
         $proc.Kill()
         $proc.WaitForExit()
         Start-Process -FilePath "C:\Program Files (x86)\Dia\bin\diaw.exe" -ArgumentList "--integrated"
+        Start-Sleep -Seconds 3
+        $proc = Get-Process diaw
+        $proc.Kill()
+        $proc.WaitForExit()
+        Start-Process -FilePath "C:\Program Files (x86)\Dia\bin\diaw.exe" -ArgumentList "--integrated"
     }
     Break
 }
