@@ -101,9 +101,6 @@
   <description xml:lang="zh_TW">電路圖的元件</description>
   -->
   <contents>
-    <object name="Test Object">
-      <description>Test Object</description>
-    </object>
     <object name="Auto Switch">
       <description>An Auto Switch</description>
     </object>
