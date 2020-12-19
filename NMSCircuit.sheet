@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sheet xmlns="http://www.lysator.liu.se/~alla/dia/dia-sheet-ns">
+  <name>NMS Circuit</name>
+  <!--
+  <name xml:lang="ast">Circuitu</name>
+  <name xml:lang="az">Dövrə</name>
+  <name xml:lang="bg">Електронни схеми</name>
+  <name xml:lang="ca">Circuit</name>
+  <name xml:lang="ca@valencia">Circuit</name>
+  <name xml:lang="cs">Elektrický obvod</name>
+  <name xml:lang="da">Elektronik</name>
+  <name xml:lang="de">Schaltkreis</name>
+  <name xml:lang="dz">གློག་ལམ་</name>
+  <name xml:lang="el">Κύκλωμα</name>
+  <name xml:lang="en_CA">Circuit</name>
+  <name xml:lang="en_GB">Circuit</name>
+  <name xml:lang="es">Circuito</name>
+  <name xml:lang="eu">Zirkuitua</name>
+  <name xml:lang="fi">Virtapiiri</name>
+  <name xml:lang="fr">Circuit</name>
+  <name xml:lang="gl">Circuíto</name>
+  <name xml:lang="gu">સર્કિટ</name>
+  <name xml:lang="hr">Krug</name>
+  <name xml:lang="hu">Áramkör</name>
+  <name xml:lang="id">Sirkuit</name>
+  <name xml:lang="it">Circuito</name>
+  <name xml:lang="ja">回路</name>
+  <name xml:lang="ko">전기 회로(CIRCUIT)</name>
+  <name xml:lang="lt">Grandinės</name>
+  <name xml:lang="mr">सर्किट</name>
+  <name xml:lang="ms">Litar</name>
+  <name xml:lang="nb">Kretsdiagram</name>
+  <name xml:lang="ne">सर्किट</name>
+  <name xml:lang="nl">Circuit</name>
+  <name xml:lang="nn">Kretsdiagram</name>
+  <name xml:lang="pl">Obwód</name>
+  <name xml:lang="pt">Circuito</name>
+  <name xml:lang="pt_BR">Circuito</name>
+  <name xml:lang="ro">Circuit</name>
+  <name xml:lang="ru">Электрические схемы</name>
+  <name xml:lang="sk">Obvod</name>
+  <name xml:lang="sl">Vezje</name>
+  <name xml:lang="sq">Qark</name>
+  <name xml:lang="sr">Коло</name>
+  <name xml:lang="sr@Latn">Kolo</name>
+  <name xml:lang="sv">Krets</name>
+  <name xml:lang="tr">Devre</name>
+  <name xml:lang="uk">Електричні схеми</name>
+  <name xml:lang="vi">Mạch</name>
+  <name xml:lang="zh_CN">电路</name>
+  <name xml:lang="zh_HK">電路</name>
+  <name xml:lang="zh_TW">電路</name>
+  -->
+  <description>Components for No Man's Sky circuit diagrams</description>
+  <!--
+  <description xml:lang="ast">Componentes pa diagrames de circuitos</description>
+  <description xml:lang="az">Dairəvi diaqram parçaları</description>
+  <description xml:lang="bg">Компоненти за ел.схеми</description>
+  <description xml:lang="ca">Components per a diagrames de circuit</description>
+  <description xml:lang="ca@valencia">Components per a diagrames de circuit</description>
+  <description xml:lang="cs">Komponenty pro obvodová schémata</description>
+  <description xml:lang="da">Komponenter for elektronikkredsløb</description>
+  <description xml:lang="de">Komponenten für Schaltkreisdiagramme</description>
+  <description xml:lang="dz">གློག་ལམ་བཀོད་རིས་ཀྱི་ཆ་ཤས་</description>
+  <description xml:lang="el">Συστατικά για διαγράμματα κυκλωμάτων</description>
+  <description xml:lang="en_CA">Components for circuit diagrams</description>
+  <description xml:lang="en_GB">Components for circuit diagrams</description>
+  <description xml:lang="es">Componentes para diagramas de circuitos</description>
+  <description xml:lang="eu">Zirkuitu-diagramen osagaiak</description>
+  <description xml:lang="fi">Komponentit virtapiirikaavioille</description>
+  <description xml:lang="fr">Composants de circuits</description>
+  <description xml:lang="gl">Compoñentes para diagramas de circuíto</description>
+  <description xml:lang="gu">સર્કિટ આકૃતિઓ માટે ઘટકો</description>
+  <description xml:lang="hr">Komponente za dijagrame električnih krugova</description>
+  <description xml:lang="hu">Elektromos áramköri elemek</description>
+  <description xml:lang="id">Komponen untuk diagram sirkuit</description>
+  <description xml:lang="it">Componenti per diagrammi circuitali</description>
+  <description xml:lang="ja">回路ダイアグラムのコンポーネント</description>
+  <description xml:lang="ko">전기 회로 도표를 위한 요소</description>
+  <description xml:lang="lt">Grandinių diagramų komponentai</description>
+  <description xml:lang="mr">सर्किट आकृती करीता विभाग</description>
+  <description xml:lang="ms">Komponen untuk melukis diagram litar</description>
+  <description xml:lang="nb">Komponenter for kretsdiagrammer</description>
+  <description xml:lang="ne">सर्किट चित्रहरूका लागि समानहरू</description>
+  <description xml:lang="nl">Circuitcomponenten</description>
+  <description xml:lang="nn">Komponentar for kretsdiagram</description>
+  <description xml:lang="pl">Komponenty do budowy diagramów obwodu</description>
+  <description xml:lang="pt">Componentes para diagramas de circuitos</description>
+  <description xml:lang="pt_BR">Componentes para diagramas de circuito</description>
+  <description xml:lang="ro">Componente pentru diagrame circuit</description>
+  <description xml:lang="ru">Компоненты для электрических схем</description>
+  <description xml:lang="sk">Komponenty pre schémy elektrických obvodov</description>
+  <description xml:lang="sl">Komponente za diagrame vezij</description>
+  <description xml:lang="sr">Делови дијаграма интегрисаних кôла</description>
+  <description xml:lang="sr@Latn">Delovi dijagrama integrisanih kôla</description>
+  <description xml:lang="sv">Komponenter för kretsscheman</description>
+  <description xml:lang="uk">Компоненти для електричних схем</description>
+  <description xml:lang="vi">Thành phần cho sơ đồ mạch</description>
+  <description xml:lang="zh_CN">电路图的部件</description>
+  <description xml:lang="zh_HK">電路圖的元件</description>
+  <description xml:lang="zh_TW">電路圖的元件</description>
+  -->
+  <contents>
+    <object name="Test Object">
+        <description>Test Object</description>
+    </object>
+    <!--
+    <object name="Circuit - Vertical Resistor">
+      <description>Vertically aligned resistor</description>
+      <description xml:lang="ast">Resistencia alliniada verticalmente</description>
+      <description xml:lang="bg">Вертикален резистор/съпротивление</description>
+      <description xml:lang="ca">Resistència alineada verticalment</description>
+      <description xml:lang="ca@valencia">Resistència alineada verticalment</description>
+      <description xml:lang="cs">Svisle orientovaný rezistor</description>
+      <description xml:lang="da">Lodret placeret modstand</description>
+      <description xml:lang="de">Vertikal ausgerichteter Widerstand</description>
+      <description xml:lang="dz">ཀེར་ཕྲང་སྦེ་ཕྲང་སྒྲིག་འབད་ཡོད་པའི་གློག་ཐུབ་བཀག་ཆས་</description>
+      <description xml:lang="el">Κάθετα στοιχισμένη αντίσταση</description>
+      <description xml:lang="en_CA">Vertically aligned resistor</description>
+      <description xml:lang="en_GB">Vertically aligned resistor</description>
+      <description xml:lang="es">Resistencia alineada verticalmente</description>
+      <description xml:lang="eu">Bertikalki lerrokatutako erresistentzia</description>
+      <description xml:lang="fi">Pystysuuntainen vastus</description>
+      <description xml:lang="fr">Résistance alignée verticalement</description>
+      <description xml:lang="gl">Resistencia aliñada verticalmente</description>
+      <description xml:lang="hr">Okomito poravnat otpornik</description>
+      <description xml:lang="hu">Függőlegesen elrendezett ellenállás</description>
+      <description xml:lang="id">Resistor yang ditata vertikal</description>
+      <description xml:lang="it">Resistore allineato verticalmente</description>
+      <description xml:lang="ja">抵抗 (縦向き)</description>
+      <description xml:lang="ko">수직 정렬 저항기</description>
+      <description xml:lang="lt">Varža (vertikali)</description>
+      <description xml:lang="mr">उभेरित्या संरेषीत रेजिस्टर</description>
+      <description xml:lang="ms">Perintang dijajarkan menegak</description>
+      <description xml:lang="nb">Vertikalt justert motstand</description>
+      <description xml:lang="ne">ठाडो गरी क्रमबद्ध गरिएको रेसिस्टर</description>
+      <description xml:lang="nl">Vertikaal uitgelijnde weerstand</description>
+      <description xml:lang="pl">Pionowo ułożony rezystor</description>
+      <description xml:lang="pt">Resistência alinhada verticalmente</description>
+      <description xml:lang="pt_BR">Resistor alinhado verticalmente</description>
+      <description xml:lang="ro">Rezistor aliniat vertical</description>
+      <description xml:lang="ru">Вертикально выровненный резистор</description>
+      <description xml:lang="sk">Zvislo zarovnaný odpor</description>
+      <description xml:lang="sl">Navpično postavljen upornik</description>
+      <description xml:lang="sr">Усправно поравнат отпорник</description>
+      <description xml:lang="sr@Latn">Uspravno poravnat otpornik</description>
+      <description xml:lang="sv">Vertikalt justerat motstånd</description>
+      <description xml:lang="uk">Вертикально орієнтований резистор</description>
+      <description xml:lang="vi">Điện trở canh dọc</description>
+      <description xml:lang="zh_CN">竖直排列的电阻器</description>
+      <description xml:lang="zh_HK">垂直放置的電阻</description>
+      <description xml:lang="zh_TW">垂直放置的電阻</description>
+    </object>
+    -->
+  </contents>
+</sheet>

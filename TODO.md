@@ -1,0 +1,11 @@
+- [DONE] Create the first test sheet.
+- [DONE] Write a build script to deploy changes to Dia
+- Populate list of objects to generate
+- ... get SVG reference, maybe?
+- Get crackin'
+- Write documentation on how to install
+- Generate some samples
+- Generate a release
+- Announce on NMS Wiki
+- Populate list of diagrams to generate
+- Get crackin', pt. 2
