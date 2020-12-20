@@ -101,6 +101,10 @@
   <description xml:lang="zh_TW">電路圖的元件</description>
   -->
   <contents>
+    <object name="nms-wire-glob">
+      <description>Glob (wire join)</description>
+    </object>
+    <br />
     <object name="nms-switch-auto">
       <description>Auto Switch</description>
     </object>

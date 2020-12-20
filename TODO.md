@@ -45,7 +45,7 @@
         - [DONE] Wall Switch
     - Wires
         - Hump
-        - Glob
+        - [DONE] Glob
 - ... get SVG reference, maybe?
 - cache issue, hacked in script, can clear cache with flags?
 - auto PNG creation... does not seem likely without rip & extra tooling
