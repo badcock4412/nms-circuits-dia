@@ -48,7 +48,7 @@
         - Glob
 - ... get SVG reference, maybe?
 - cache issue, hacked in script, can clear cache with flags?
-- auto PNG creation
+- auto PNG creation... does not seem likely without rip & extra tooling
 - Get crackin'
 - Write documentation on how to install
 - Generate some samples

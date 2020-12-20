@@ -101,7 +101,7 @@
   <description xml:lang="zh_TW">電路圖的元件</description>
   -->
   <contents>
-    <object name="Auto Switch">
+    <object name="nms-switch-auto">
       <description>An Auto Switch</description>
     </object>
     <!--

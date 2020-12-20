@@ -2,9 +2,9 @@
 
 <shape xmlns="http://www.daa.com.au/~james/dia-shape-ns"
        xmlns:svg="http://www.w3.org/2000/svg">
-  <name>Auto Switch</name>
-  <description>An auto switch</description>
-  <icon>Autoswitch.png</icon>
+  <name>nms-switch-auto</name>
+  <description>Auto switch</description>
+  <icon>nms-switch-auto.png</icon>
   <default-width>2cm</default-width>
   <default-height>2cm</default-height>
   <connections>
