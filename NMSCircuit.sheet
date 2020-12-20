@@ -104,6 +104,9 @@
     <object name="nms-wire-glob">
       <description>Glob (wire join)</description>
     </object>
+    <object name="nms-wire-hump">
+      <description>Hump (wire skip)</description>
+    </object>
     <br />
     <object name="nms-switch-auto">
       <description>Auto Switch</description>

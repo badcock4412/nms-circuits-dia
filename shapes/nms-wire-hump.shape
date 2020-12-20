@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<shape xmlns="http://www.daa.com.au/~james/dia-shape-ns"
+       xmlns:svg="http://www.w3.org/2000/svg">
+  <name>nms-wire-hump</name>
+  <description>Wire hump</description>
+  <icon>nms-wire-hump.png</icon>
+  <default-width>2cm</default-width>
+  <default-height>1cm</default-height>
+  <connections>
+    <point x="3" y="0"/>
+    <point x="-3" y="0"/>
+    <point x="0" y="-3"/>
+    <point x="0" y="0"/>
+  </connections>
+  <aspectratio type="fixed"/>
+  <svg:svg width="6.0" height="3.0">
+    <svg:g style="stroke-width: .1; stroke: #000000">
+      <svg:path d="M -3,0 L -2,0 C -2,-3 2,-3 2,0 L 3,0" />
+      <svg:line x1="0" y1="-3" x2="0" y2="0" />
+    </svg:g>
+  </svg:svg>
+</shape>
