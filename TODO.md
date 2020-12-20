@@ -46,6 +46,7 @@
     - Wires
         - [DONE] Hump
         - [DONE] Glob
+        - [DONE] V+
 - auto PNG creation... does not seem likely without rip & extra tooling
 - Get crackin'
 - Write documentation on how to install
