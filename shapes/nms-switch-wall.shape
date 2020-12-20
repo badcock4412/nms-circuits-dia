@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<shape xmlns="http://www.daa.com.au/~james/dia-shape-ns"
+       xmlns:svg="http://www.w3.org/2000/svg">
+  <name>nms-switch-wall</name>
+  <description>Wall Switch</description>
+  <icon>nms-switch-wall.png</icon>
+  <default-width>2cm</default-width>
+  <default-height>2cm</default-height>
+  <connections>
+    <point x="3" y="3"/>
+    <point x="-3" y="3"/>
+  </connections>
+  <aspectratio type="fixed"/>
+  <svg:svg width="6.0" height="6.0">
+    <svg:rect style="fill: default; stroke-width: 0.1; stroke-width: 0.1; stroke: #000000" x="-3" y="0" width="6" height="6"/>
+    <svg:g style="stroke-width: 2; stroke: #000000">
+      <svg:path d="M  0.5,4 L  0.5,3 C  0.5,2.5  0.5,2.5  1,2.5 L  1.5,2.5 C  2,2.5  2,2.5  2,2 C  2,1  2,1  1.5,1 L 0,1" />
+      <svg:path d="M -0.5,4 L -0.5,3 C -0.5,2.5 -0.5,2.5 -1,2.5 L -1.5,2.5 C -2,2.5 -2,2.5 -2,2 C -2,1 -2,1 -1.5,1 L 0,1" />
+    </svg:g>
+  </svg:svg>
+</shape>

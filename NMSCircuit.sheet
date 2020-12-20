@@ -107,6 +107,9 @@
     <object name="nms-switch-inverter">
       <description>Inverter</description>
     </object>
+    <object name="nms-switch-wall">
+      <description>Wall Switch</description>
+    </object>
     <object name="nms-switch-button">
       <description>Button</description>
     </object>

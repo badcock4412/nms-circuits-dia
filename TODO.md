@@ -41,8 +41,8 @@
         - [DONE] Button
         - [DONE] Floor Switch
         - [DONE] Power Inverter
-        - Proximity Switch
-        - Wall Switch
+        - [DONE] Proximity Switch
+        - [DONE] Wall Switch
     - Wires
         - Hump
         - Glob
