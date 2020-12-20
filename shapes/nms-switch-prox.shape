@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<shape xmlns="http://www.daa.com.au/~james/dia-shape-ns"
+       xmlns:svg="http://www.w3.org/2000/svg">
+  <name>nms-switch-prox</name>
+  <description>Floor Switch</description>
+  <icon>nms-switch-prox.png</icon>
+  <default-width>2cm</default-width>
+  <default-height>2cm</default-height>
+  <connections>
+    <point x="3" y="3"/>
+    <point x="-3" y="3"/>
+  </connections>
+  <aspectratio type="fixed"/>
+  <svg:svg width="6.0" height="6.0">
+    <svg:rect style="fill: default; stroke-width: 0.1; stroke-width: 0.1; stroke: #000000" x="-3" y="0" width="6" height="6"/>
+    <svg:rect style="fill: default; stroke-width: 0.1; stroke-width: 0.1; stroke: #000000" x="-2" y="2" width="2" height="2"/>
+    <svg:g style="stroke-width: 1; stroke: #000000">
+      <svg:line x1="0" y1="2.5" x2="2" y2="1"/>
+      <svg:line x1="0" y1="3.5" x2="2" y2="5"/>
+      <svg:line x1="2" y1="1" x2="2" y2="5"/>
+    </svg:g>
+  </svg:svg>
+</shape>

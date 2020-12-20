@@ -110,6 +110,9 @@
     <object name="nms-switch-button">
       <description>Button</description>
     </object>
+    <object name="nms-switch-prox">
+      <description>Proximity Switch</description>
+    </object>
     <object name="nms-switch-floor">
       <description>Floor Switch</description>
     </object>
