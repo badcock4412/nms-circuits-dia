@@ -38,8 +38,8 @@
         - Buildable.glasscorridor.png Glass Roofed Corridor	1
     - Switches
         - [DONE] Auto Switch
-        - Button
-        - Floor Switch
+        - [DONE] Button
+        - [DONE] Floor Switch
         - Power Inverter
         - Proximity Switch
         - Wall Switch

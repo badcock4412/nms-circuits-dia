@@ -102,7 +102,13 @@
   -->
   <contents>
     <object name="nms-switch-auto">
-      <description>An Auto Switch</description>
+      <description>Auto Switch</description>
+    </object>
+    <object name="nms-switch-button">
+      <description>Button</description>
+    </object>
+    <object name="nms-switch-floor">
+      <description>Floor Switch</description>
     </object>
     <!--
     <object name="Circuit - Vertical Resistor">
