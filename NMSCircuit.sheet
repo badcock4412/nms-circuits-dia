@@ -104,6 +104,9 @@
     <object name="nms-switch-auto">
       <description>Auto Switch</description>
     </object>
+    <object name="nms-switch-inverter">
+      <description>Inverter</description>
+    </object>
     <object name="nms-switch-button">
       <description>Button</description>
     </object>

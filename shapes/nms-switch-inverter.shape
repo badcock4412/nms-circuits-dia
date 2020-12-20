@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<shape xmlns="http://www.daa.com.au/~james/dia-shape-ns"
+       xmlns:svg="http://www.w3.org/2000/svg">
+  <name>nms-switch-inverter</name>
+  <description>Inverter</description>
+  <icon>nms-switch-inverter.png</icon>
+  <default-width>2cm</default-width>
+  <default-height>2cm</default-height>
+  <connections>
+    <point x="0" y="6" main="yes"/>
+    <point x="3" y="3"/>
+    <point x="-3" y="3"/>
+  </connections>
+  <aspectratio type="fixed"/>
+  <svg:svg width="6.0" height="6.0">
+    <svg:rect style="fill: default; stroke-width: 0.1; stroke-width: 0.1; stroke: #000000" x="-3" y="0" width="6" height="6"/>
+    <svg:rect style="fill: #000000" x="-1.5" y="1" width="0.5" height="4"/>
+    <svg:rect style="fill: #000000" x="1" y="1" width="0.5" height="4"/>
+  </svg:svg>
+</shape>

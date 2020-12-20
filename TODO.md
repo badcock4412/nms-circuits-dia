@@ -40,7 +40,7 @@
         - [DONE] Auto Switch
         - [DONE] Button
         - [DONE] Floor Switch
-        - Power Inverter
+        - [DONE] Power Inverter
         - Proximity Switch
         - Wall Switch
     - Wires
