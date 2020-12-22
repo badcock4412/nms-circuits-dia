@@ -4,7 +4,7 @@
     - Sources
         - [DONE] Biofuel Reactor
         - [DONE] Solar Panel
-        - Electromagnetic Generator
+        - [DONE] Electromagnetic Generator
         - Battery
     - Sinks
         - BUILDABLE.DRESSINGROOM.png Appearance Modifier	50
@@ -47,12 +47,50 @@
         - [DONE] Hump
         - [DONE] Glob
         - [DONE] V+
+    - Labels
+        - Bolt
 - [DONE] auto PNG creation... does not seem likely without rip & extra tooling
     - Improve: adjust for non-square elements
 - Get crackin'
 - Write documentation on how to install
 - Generate some samples
+- GitHub Pages, or ReadMe?
 - Generate a release
+- Bonus: Circuit analyzer?
+    - Read Dia Diagram, build link node network
+    - Read source / sink parameters from file
+    - Get inputs for unknowns
+        - Solar panels on/off
+        - Battery charge levels
+        - Switch states
+    - Get input for sequence info
+        - Switch Flips
+        - Day/dusk?/night
+            - Experiment: solar panel values throughout the day
+                - 5:45-ish? cuts from 50kP to 25 kP, and then to 0 kP about an hour later.
+                - Although the mouseover sometimes reads 49 or 51 kP, it is always 50 exactly.
+                - The solar panel will tell you how much light or dark remains in the day, but the transition happens around 6:00, between the 50->25 and 25->0 transitions.
+    - Get initial state
+        - Reduce lnn depending on open/close switch state
+        - Determine source, sink rate
+            - Experiment - what happens to an overloaded line?
+                - A line with more load than source (+battery) will act as if the line receives 0kP.
+                - An autoswitch with a load behind it that, when the circuit opens, would overload the circuit, will never appear to be green.
+            - Experiment - Is an overloaded line affected by autoswitches? (e.g. load -> switch -> overload)
+                - YES! A line that would be overloaded if the load behind an autoswitch was connected & is connected to the control line of an autoswitch will oscillate between powering and not powering.
+                - State 1: 46kP load on the line, line is ON, autoswitch control line activated
+                - State 2: Autoswitch opens.  51kP on the line, line is off, autoswitch control line is deactivated.
+                - State 1: Autoswitch closes. 46kP on the line...
+            - Experiment: will an overloaded line still charge a battery?
+                - NO! After reaching overload, no components on the line will receive power - it is as if the power receives 0kP source.
+        - 
+    - Iterate & get next state
+        - Store or discard overflow
+        - Take underflow from storage
+        - Assess switch state, flip switches
+        - Read from sequence queue, flip manual switches
+    - Generate Dia diagrams:
+        - labeled
 - Announce on NMS Wiki
 - Populate list of diagrams to generate
 - Get crackin', pt. 2
