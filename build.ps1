@@ -3,6 +3,8 @@ $PROJNAME = "NMSCircuit"
 $PROGDIR = Join-Path ${env:ProgramFiles(x86)} Dia
 $SHEETDIR = Join-Path $PROGDIR sheets
 $SHAPEDIR = Join-Path $PROGDIR shapes
+$BINDIR = Join-Path $PROGDIR bin
+$EXENAME = "diaw"
 $SHAPEPROJDIR = Join-Path $SHAPEDIR $PROJNAME
 
 $SHEETFILENAME = "$PROJNAME.sheet"
@@ -12,19 +14,20 @@ $SHEETPATH = Join-Path $SHEETDIR $SHEETFILENAME
 # https://stackoverflow.com/questions/7690994/running-a-command-as-administrator-using-powershell/57035712#57035712
 if (-NOT ([Security.Principal.WindowsPrincipal][Security.Principal.WindowsIdentity]::GetCurrent()).IsInRole([Security.Principal.WindowsBuiltInRole] "Administrator"))  
 {  
-    Start-Process PowerShell -Verb RunAs "-NoProfile -ExecutionPolicy Bypass -Command `"cd '$pwd'; & '$PSCommandPath';`"";
+    Start-Process PowerShell -Verb RunAs -Wait "-NoProfile -ExecutionPolicy Bypass -Command `"cd '$pwd'; & '$PSCommandPath';`"";
     # restart diaw, if running
-    $proc = Get-Process diaw -ErrorAction SilentlyContinue
+    $proc = Get-Process $EXENAME -ErrorAction SilentlyContinue
     if( $null -ne $proc ) {
         $proc.Kill()
         $proc.WaitForExit()
-        Start-Process -FilePath "C:\Program Files (x86)\Dia\bin\diaw.exe" -ArgumentList "--integrated"
-        Start-Sleep -Seconds 3
-        $proc = Get-Process diaw
-        $proc.Kill()
-        $proc.WaitForExit()
-        Start-Process -FilePath "C:\Program Files (x86)\Dia\bin\diaw.exe" -ArgumentList "--integrated"
     }
+    Start-Process -FilePath (Join-Path $BINDIR $EXENAME) -ArgumentList "--integrated"
+        #Start-Sleep -Seconds 3
+        #$proc = Get-Process diaw
+        #$proc.Kill()
+        #$proc.WaitForExit()
+        #Start-Process -FilePath "C:\Program Files (x86)\Dia\bin\diaw.exe" -ArgumentList "--integrated"
+    
     Break
 }
 
@@ -42,5 +45,5 @@ if (Test-Path $SHAPEPROJDIR) {
 
 # make & populate new shape directory
 New-Item -Path $SHAPEDIR -Name $PROJNAME -ItemType "directory"
-Join-Path "shapes" "*" | Copy-Item -Destination $SHAPEPROJDIR
+Join-Path "shapes" "*" | Copy-Item -Destination $SHAPEPROJDIR | Out-Null
 
