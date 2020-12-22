@@ -3,7 +3,7 @@
 - [DONE] Populate list of objects to generate
     - Sources
         - [DONE] Biofuel Reactor
-        - Solar Panel
+        - [DONE] Solar Panel
         - Electromagnetic Generator
         - Battery
     - Sinks
