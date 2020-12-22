@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<shape xmlns="http://www.daa.com.au/~james/dia-shape-ns"
+       xmlns:svg="http://www.w3.org/2000/svg">
+  <name>nms-source-biofuel</name>
+  <description>Biofuel Reactor</description>
+  <icon>nms-source-biofuel.png</icon>
+  <default-width>2cm</default-width>
+  <default-height>3cm</default-height>
+  <connections>
+    <point x="-3" y="-3"/>
+    <point x="3" y="-3"/>
+  </connections>
+  <aspectratio type="fixed"/>
+  <svg:svg width="6.0" height="9.0">
+    <svg:g style="stroke-width: 0.1; stroke: #000000">
+      <svg:path d="M -3,-3 C -2.75,-3 -2.5,-4 -2.5,-5 L -2.5,-7 C -2.4,-11 -2.3,-11.9 0,-12 C 2.3,-11.9 2.4,-11 2.5,-7 L 2.5,-5 C 2.5,-4 2.75,-3 3,-3"/>
+      <svg:rect x="-3" y="-7" width=".5" height="2" />
+      <svg:rect x="2.5" y="-7" width=".5" height="2" />
+      <svg:circle cx="0" cy="-9" r=".5" />
+      <svg:circle cx="0" cy="-9" r="1" />
+      <svg:circle cx="0" cy="-9" r="1.5" />
+    </svg:g>
+    <svg:g style="fill: #000000">
+      <svg:circle cx="0" cy="-11" r=".25" />
+      <svg:circle cx="2" cy="-9" r=".25" />
+      <svg:circle cx="-2" cy="-9" r=".25" />
+      <svg:circle cx="1.73205080757" cy="-10" r=".25" />
+      <svg:circle cx="1" cy="-10.7320508076" r=".25" />
+      <svg:circle cx="-1.73205080757" cy="-10" r=".25" />
+      <svg:circle cx="-1" cy="-10.7320508076" r=".25" />
+    </svg:g>
+  </svg:svg>
+</shape>
