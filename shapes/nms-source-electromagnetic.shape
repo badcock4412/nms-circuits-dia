@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<shape xmlns="http://www.daa.com.au/~james/dia-shape-ns"
+       xmlns:svg="http://www.w3.org/2000/svg">
+  <name>nms-source-electromagnetic</name>
+  <description>Electromagnetic Generator</description>
+  <icon>nms-source-electromagnetic.png</icon>
+  <default-width>2cm</default-width>
+  <default-height>4cm</default-height>
+  <connections>
+    <point x="9" y="-.5"/>
+    <point x="-9" y="-.5"/>
+    <point x="0" y="0"/>
+  </connections>
+  <svg:svg width="18.0" height="18.0">
+    <svg:g style="stroke-width: 0.1; stroke: #000000">
+      <svg:path d="M -2,0 L 2,0 L 2,-1 L -2,-1 M 2,-.5 L 7,-.5 M 7,0 L 9,0 L 9,-1 L 7,-1 L 7,0 M 7,-.75 L 6,-1 L 6,-2 L 9,-3.5 L 9,-4 L 8,-4.25 L 2,-2 L 0,-2" />
+      <svg:path d="M 8,-4.25 L 7,-5 L 2,-7 L 2,-8 L 5,-8.75 L 5,-9.25 L 2,-10 L 2,-16 L 3,-16 L 3,-17.5 L .75,-18 L .75,-2" />
+      <svg:path d="M -2,0 L -2,-1 M -2,-.5 L -7,-.5 M -7,0 L -9,0 L -9,-1 L -7,-1 L -7,0 M -7,-.75 L -6,-1 L -6,-2 L -9,-3.5 L -9,-4 L -8,-4.25 L -2,-2 L 0,-2" />
+      <svg:path d="M -8,-4.25 L -7,-5 L -2,-7 L -2,-8 L -5,-8.75 L -5,-9.25 L -2,-10 L -2,-16 L -3,-16 L -3,-17.5 L -.75,-18 L -.75,-2" />
+    </svg:g>
+  </svg:svg>
+</shape>

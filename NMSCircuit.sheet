@@ -139,6 +139,9 @@
     <object name="nms-source-solar">
       <description>Solar Panel</description>
     </object>
+    <object name="nms-source-electromagnetic">
+      <description>Electromagnetic Generator</description>
+    </object>
     <!--
     <object name="Circuit - Vertical Resistor">
       <description>Vertically aligned resistor</description>
