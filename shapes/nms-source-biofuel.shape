@@ -8,8 +8,8 @@
   <default-width>2cm</default-width>
   <default-height>3cm</default-height>
   <connections>
-    <point x="-3" y="-3"/>
-    <point x="3" y="-3"/>
+    <point x="-3" y="-6"/>
+    <point x="3" y="-6"/>
   </connections>
   <aspectratio type="fixed"/>
   <svg:svg width="6.0" height="9.0">
