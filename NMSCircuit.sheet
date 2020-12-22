@@ -136,6 +136,9 @@
     <object name="nms-source-biofuel">
       <description>Biofuel Reactor</description>
     </object>
+    <object name="nms-source-solar">
+      <description>Solar Panel</description>
+    </object>
     <!--
     <object name="Circuit - Vertical Resistor">
       <description>Vertically aligned resistor</description>
