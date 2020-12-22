@@ -2,7 +2,7 @@
 - [DONE] Write a build script to deploy changes to Dia
 - [DONE] Populate list of objects to generate
     - Sources
-        - Biofuel Reactor
+        - [DONE] Biofuel Reactor
         - Solar Panel
         - Electromagnetic Generator
         - Battery
@@ -47,7 +47,8 @@
         - [DONE] Hump
         - [DONE] Glob
         - [DONE] V+
-- auto PNG creation... does not seem likely without rip & extra tooling
+- [DONE] auto PNG creation... does not seem likely without rip & extra tooling
+    - Improve: adjust for non-square elements
 - Get crackin'
 - Write documentation on how to install
 - Generate some samples
