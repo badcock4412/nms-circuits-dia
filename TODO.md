@@ -5,7 +5,7 @@
         - [DONE] Biofuel Reactor
         - [DONE] Solar Panel
         - [DONE] Electromagnetic Generator
-        - Battery
+        - [DONE] Battery
     - Sinks
         - BUILDABLE.DRESSINGROOM.png Appearance Modifier	50
         - BUILDABLE.CREATUREFEEDER.png Automated Feeder	20
@@ -51,6 +51,8 @@
         - Bolt
 - [DONE] auto PNG creation... does not seem likely without rip & extra tooling
     - Improve: adjust for non-square elements
+- Fix & unify color schemes
+- Fix aspectratio issue with solar, em
 - Get crackin'
 - Write documentation on how to install
 - Generate some samples

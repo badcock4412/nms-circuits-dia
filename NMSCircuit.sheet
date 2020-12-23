@@ -142,6 +142,9 @@
     <object name="nms-source-electromagnetic">
       <description>Electromagnetic Generator</description>
     </object>
+    <object name="nms-source-battery">
+      <description>Battery</description>
+    </object>
     <!--
     <object name="Circuit - Vertical Resistor">
       <description>Vertically aligned resistor</description>

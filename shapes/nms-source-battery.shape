@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<shape xmlns="http://www.daa.com.au/~james/dia-shape-ns"
+       xmlns:svg="http://www.w3.org/2000/svg">
+  <name>nms-source-battery</name>
+  <description>Battery</description>
+  <icon>nms-source-battery.png</icon>
+  <default-width>9cm</default-width>
+  <default-height>12cm</default-height>
+  <connections>
+    <point x="-4.5" y="-.75"/>
+    <point x="4.5" y="-.75"/>
+    <point x="0" y="0"/>
+  </connections>
+  <aspectratio type="fixed"/>
+  <svg:svg width="9.0" height="12.0">
+    <svg:g style="stroke-width: 0.1; stroke: #000000">
+      <!-- guides, remove these -->
+      <svg:rect x="-4.5" y="-12" width="9" height="9" style="stroke: #aaaaaa"/>
+      <svg:rect x="-4.5" y="-3" width="9" height="3" style="stroke: #aaaaaa"/>
+      <svg:path d="
+      M -4.5,-9
+      C -4.5,-10 -4.5,-11.5 -1.5,-12
+      L 1.5,-12
+      C 4.5,-11.5 4.5,-10 4.5,-9
+      L 4.5,-6
+      C 4.5,-5 4.5,-3.5 1.5,-3
+      L -1.5,-3
+      C -4.5,-3.5 -4.5,-5 -4.5,-6
+      L -4.5,-9
+      " />
+      <!-- inner circles and ovals -->
+      <svg:circle cx="0" cy="-7.5" r="1.2" style="stroke-pattern: dashed; stroke-dashlength: 0.3"/>
+      <svg:circle cx="0" cy="-7.5" r=".8"/>
+      <svg:path d="
+      M -1.5,-7.5
+      C -1.5,-8 -1.5,-9.5 0,-9.5
+      C 1.5,-9.5 1.5,-8 1.5,-7.5
+      C 1.5,-7 1.5,-5.5 0,-5.5
+      C -1.5,-5.5 -1.5,-7 -1.5,-7.5" />
+      <svg:path d="
+      M -3,-8.2
+      L -3,-9.4
+      C -3,-9.6 -3,-10.8 -1,-10.8
+      L 1,-10.8
+      C 3,-10.8 3,-9.6 3,-9.4
+      L 3,-8.2
+      M 3,-6.8
+      L 3,-5.6
+      C 3,-5.4 3,-4.2 1,-4.2
+      L -1,-4.2
+      C -3,-4.2 -3,-5.4 -3,-5.6
+      L -3,-6.8
+      " />
+      <!-- "handles" -->
+      <svg:path d="M -1.75,-7 L -2.5, -7 C -3,-7 -3,-7 -3,-7.25 L -3,-7.75 C -3,-8 -3,-8 -2.5, -8 L -1.75,-8" />
+      <svg:path d="M 1.75,-7 L 2.5, -7 C 3,-7 3,-7 3,-7.25 L 3,-7.75 C 3,-8 3,-8 2.5, -8 L 1.75,-8" />
+      <!-- spokes -->
+      <svg:line x1="-1.35" y1="-8.6" x2="-4.4" y2="-10.1" />
+      <svg:line x1="-.8" y1="-9.3" x2="-1.6" y2="-12" />
+      <svg:line x1="1.35" y1="-8.6" x2="4.4" y2="-10.1" />
+      <svg:line x1=".8" y1="-9.3" x2="1.6" y2="-12" />
+      <svg:line x1="-1.35" y1="-6.4" x2="-4.4" y2="-4.9" />
+      <svg:line x1="-.8" y1="-5.7" x2="-1.6" y2="-3" />
+      <svg:line x1="1.35" y1="-6.4" x2="4.4" y2="-4.9" />
+      <svg:line x1=".8" y1="-5.7" x2="1.6" y2="-3" />
+      <!-- base -->
+      <svg:path d="
+        M -1,-3
+        L -1,-2
+        L -4,-2
+        L -4,-1.5
+        L -4.5,-1.5
+        L -4.5,0
+        L -3.5,0
+        L -3.5,-1.5
+        L -4,-1.5
+        M -3.5,-.5
+        L -1,-.5
+        L -1,0
+        L 1,0
+        L 1,-1.5
+        L -1,-1.5
+        L -1, -.5
+        M 1,-.5
+        L 3.5,-.5
+        L 3.5,0
+        L 4.5,0
+        L 4.5,-1.5
+        L 3.5,-1.5
+        L 3.5,-.5
+        M 4,-1.5
+        L 4,-2
+        L 1,-2
+        L 1,-3
+
+      "/>
+    </svg:g>
+  </svg:svg>
+</shape>
